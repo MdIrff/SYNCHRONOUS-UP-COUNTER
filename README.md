@@ -1,4 +1,4 @@
-### SYNCHRONOUS-UP-COUNTER
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/13888c74-4eb2-47df-9b43-4b75cd5f7c27" />### SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
 
@@ -31,16 +31,38 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 /* write all the steps invloved */
 
 **PROGRAM**
+~~~
+module ex11(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else
+     out <= out+1;
+end
+end endmodule
+~~~
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
-*/
+
+Developed by:Muhammad Irfan M
+RegisterNumber:25014471
 
 **RTL LOGIC UP COUNTER**
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eb337e4b-3149-4c26-adba-9a1f4674a350" />
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
+<img width="757" height="502" alt="image" src="https://github.com/user-attachments/assets/75404ce9-e6c8-4c68-904b-a09ac6b38d50" />
+
 
 **TRUTH TABLE**
 
+<img width="609" height="411" alt="image" src="https://github.com/user-attachments/assets/49f1cf0f-ddea-48de-9817-fbe855952d9a" />
+
 **RESULTS**
+
+Thus the truth table of logic gates in Quartus II using Verilog programming is studied and verified successfully
