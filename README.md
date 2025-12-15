@@ -60,6 +60,7 @@ Developed by:MUhammad Irfan M RegisterNumber:25014471
 
 
 **TRUTH TABLE**
+
 <img width="609" height="411" alt="image" src="https://github.com/user-attachments/assets/ebb4f259-7b93-42f3-95c2-cb3c524d7381" />
 
 
